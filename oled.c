@@ -57,9 +57,6 @@ void oled_render_layer_state_main(void) {
         case 5:
             oled_write_P(PSTR("[GAM]"), false);
             break;
-        case 6:
-            oled_write_P(PSTR("[WEP]"), false);
-            break;
         default:
             oled_write_P(PSTR("[ ? ]"), false);
     }
