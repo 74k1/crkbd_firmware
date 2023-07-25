@@ -35,13 +35,13 @@ I have the following hardware: (totally unsorted)
 | Kailh Purpz Choc | 42 |
 | MBK Glow Keycaps | 1 set |
 
-## How do I compile this?
+## How do I flash this?
 
 1. Install [QMK](https://docs.qmk.fm/#/newbs) and git
 2. do a `git clone git@github.com:qmk/qmk_firmware.git ~/qmk_firmware`
 3. then do a `git clone git@github.com:74k1/crkbd_firmware.git ~/qmk_firmware/keyboards/crkbd/keymaps/74k1`
 4. now you should be able to do a simple: `qmk compile -kb crkbd -km 74k1`
-5. then flash it with the 
+5. then flash it with the qmk command: `qmk flash -kb crkbd -km 74k1` or the qmk toolbox
 
 ## Layers
 
