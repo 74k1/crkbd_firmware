@@ -86,8 +86,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //| ~      | ¦      | @      | #      | °      | $      |                    | `      | |      | '      | ?      | !      | <-     |
         CH_TILD, CH_BRKP,   CH_AT, CH_HASH,  CH_DEG,  CH_DLR,                       CH_GRV, CH_PIPE, CH_QUOT, CH_QUES, CH_EXLM, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-    //| CAPS   | <      | {      | [      | (      | \      |                    | /      | )      | ]      | }      | >      | DEL    |
-        KC_CAPS, CH_LABK, CH_LCBR, CH_LBRC, CH_LPRN, CH_BSLS,                      CH_SLSH, CH_RPRN, CH_RBRC, CH_RCBR, CH_RABK,  KC_DEL,
+    //| CAPS   | <      | [      | {      | (      | \      |                    | /      | )      | }      | ]      | >      | DEL    |
+        KC_CAPS, CH_LABK, CH_LBRC, CH_LCBR, CH_LPRN, CH_BSLS,                      CH_SLSH, CH_RPRN, CH_RCBR, CH_RBRC, CH_RABK,  KC_DEL,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     //|        |        |        | MUTE   | VOL DN | VOL UP |                    | PRV    | PLY    | NXT    |        |        |        |
         XXXXXXX, XXXXXXX, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU,                      KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, XXXXXXX, XXXXXXX,
